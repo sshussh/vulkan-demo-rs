@@ -21,7 +21,7 @@ Before running this demo, you need:
 ## Running the Demo
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/sshussh/vulkan-demo-rs
 cd vulkan-demo
 make
 ```
