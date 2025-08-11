@@ -58,6 +58,26 @@ The demo will open a window displaying a triangle with the following features:
 9. **Synchronization**: Using semaphores and fences for proper synchronization
 10. **Vertex Data**: Hardcoded triangle vertices with colors
 
+### Steps Performed
+
+- Create instance
+- Set up validation layers
+- Pick physical device
+- Create logical device
+- Create surface
+- Create swapchain
+- Create image views
+- Create render pass
+- Compile shaders
+- Create graphics pipeline
+- Create framebuffers
+- Create command pool
+- Create command buffers
+- Create semaphores and fences
+- Record commands
+- Submit and present
+- Clean up everything
+
 ### Validation Layers
 
 The demo includes Vulkan validation layers in debug builds, which provide:

@@ -1005,7 +1005,7 @@ struct SwapchainSupportDetails {
 fn main() {
     let event_loop = EventLoop::new();
     let window = WindowBuilder::new()
-        .with_title("Vulkan Triangle")
+        .with_title("Vulkan Triangle in Rust")
         .with_inner_size(winit::dpi::LogicalSize::new(800, 600))
         .build(&event_loop)
         .expect("Failed to create window");
